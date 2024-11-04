@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Identificação de Cadeia Carbônica</title>
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.cadeia-imagem {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.input-resposta {
+    width: 80%;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-enviar {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #5cb85c;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-enviar:hover {
+    background-color: #4cae4c;
+}
+
+</style>
+<body>
+    <div class="container">
+        <h1>Identifique a Cadeia Carbônica</h1>
+        <img src="./images/but.png" alt="Cadeia Carbônica" class="cadeia-imagem" id="cadeiaImagem">
+        <p>Qual é a cadeia carbônica mostrada na imagem acima?</p>
+        <input type="text" placeholder="Digite sua resposta aqui..." class="input-resposta" id="respostaAluno">
+        <button class="btn-enviar" id="btnEnviar">Enviar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
